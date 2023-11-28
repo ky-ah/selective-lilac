@@ -1,0 +1,9 @@
+name: FiLM
+# size/dimensions of the gru hidden space
+gru_hidden_size: 256
+# size/dimensions of the word embeddings
+embedding_dim: 128
+# number of FiLM modules to use
+film_modules: 4
+# layer to extract visual features from resnet (1, 2, 3, or 4)
+resnet_out_layer: 1

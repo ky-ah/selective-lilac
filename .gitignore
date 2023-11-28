@@ -1,0 +1,29 @@
+# Data
+data/*
+outputs/
+checkpoints/*
+
+# Models
+*.pth
+
+*.pyc
+*__pycache__
+
+# PyPI
+build/*
+dist/*
+.idea/
+
+#docs
+_build/*
+.DS_Store
+_site
+.jekyll-cache
+__pycache__
+.vscode/
+.venv/
+
+# Testing
+.pytest_cache/
+
+**/*.bak

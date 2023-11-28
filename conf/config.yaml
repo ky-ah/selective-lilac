@@ -1,0 +1,32 @@
+defaults:
+  - _self_
+  - arch: transformer
+  - hydra.output_subdir: null
+  - override hydra/job_logging: none
+  - override hydra/hydra_logging: none
+
+
+# random seed for reproducibility
+seed: 0
+# dataset name (lilac-2d/lilac-3d)
+dataset: lilac-2d
+# target directory for train and test sets
+data_dir: data
+# cpu/gpu training (cpu or cuda:<ID>)
+device: cuda:0
+# number of epochs for initialization
+init_epochs: 10
+# number of epochs for continual training on each task
+continual_epochs: 30
+# number of epochs between two consolidation steps
+adapt_freq: 6
+# batch size for training
+batch_size: 128
+# whether to use adaptation-consolidation scheme (A&C)
+ac: False
+# selective specialization strategy
+strategy: all-shared
+# learning rate for init phase
+init_lr: 1e-4
+# learning rate for continual phase
+cl_lr: 1e-4

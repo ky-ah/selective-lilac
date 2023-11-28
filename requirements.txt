@@ -1,0 +1,6 @@
+hydra-core>=1.2.0
+torch
+torchvision
+info-nce-pytorch
+tqdm
+einops

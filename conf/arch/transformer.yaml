@@ -1,0 +1,11 @@
+name: Transformer
+# size/dimensions of the word embeddings
+embedding_dim: 256
+# number of attention heads
+nhead: 2
+# bottleneck dimensionality of feed-forward network
+ffn_dim: 64
+# number of transformer encoder layers
+num_encoder_layers: 4
+# layer to extract visual features from resnet (1, 2, 3, or 4)
+resnet_out_layer: 1

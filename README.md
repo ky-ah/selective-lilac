@@ -45,8 +45,9 @@ python train.py arch=transformer dataset=lilac-3d strategy=self-attn-all-layers
 If you find our work on continual learning of visually grounded language useful, please cite our work:
 ```bash
 @proceedings{ahrens-etal-2023-selective-lilac,
-    title = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    title = "Visually Grounded Continual Language Learning with Selective Specialization",
     author = "Ahrens, Kyra and Bengtson, Lennart and Lee, Jae Hee and Wermter, Stefan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
     month = dec,
     year = "2023",
     publisher = "Association for Computational Linguistics"

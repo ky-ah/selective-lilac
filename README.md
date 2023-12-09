@@ -4,7 +4,7 @@
 
 Kyra Ahrens, Lennart Bengtson, Jae Hee Lee, and Stefan Wermter (2023). "Visually Grounded Continual Language Learning with Selective Specialization."
 
-[Paper](https://arxiv.org/abs/2310.15571) • [LILAC-2D Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/lilac-2d.zip) (~630 MB) • [LILAC-3D Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/lilac-3d.zip) (~800 MB)
+[Paper](https://aclanthology.org/2023.findings-emnlp.469/) • [LILAC-2D Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/lilac-2d.zip) (~630 MB) • [LILAC-3D Download](https://www2.informatik.uni-hamburg.de/wtm/datasets2/lilac-3d.zip) (~800 MB)
 
 ## Overview
 
@@ -44,13 +44,22 @@ python train.py arch=transformer dataset=lilac-3d strategy=self-attn-all-layers
 
 If you find our work on continual learning of visually grounded language useful, please cite our work:
 ```bash
-@proceedings{ahrens-etal-2023-selective-lilac,
+@inproceedings{ahrens-etal-2023-selective-lilac,
     title = "Visually Grounded Continual Language Learning with Selective Specialization",
-    author = "Ahrens, Kyra and Bengtson, Lennart and Lee, Jae Hee and Wermter, Stefan",
+    author = "Ahrens, Kyra  and
+      Bengtson, Lennart  and
+      Lee, Jae  and
+      Wermter, Stefan",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
     month = dec,
     year = "2023",
-    publisher = "Association for Computational Linguistics"
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.469",
+    pages = "7037--7054"
 }
 ```
 
